@@ -1,0 +1,48 @@
+#head{
+    width: 37%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.makeblue{
+    color: #005EB8;
+    font-size: 15px;
+}
+hr {
+    color: lightgray;
+}
+
+#main_content{
+    width: 37%;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+li{
+    margin-bottom: 1.2em;
+}
+footer{
+    text-align: center;
+    margin-top: 3em;
+}
+img{
+    width: 10%;
+}
+
+#theme-select {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.dark .makeblue {
+    color: lightblue;
+}
