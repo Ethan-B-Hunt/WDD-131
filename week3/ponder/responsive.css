@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
 }
 header,
 main,
@@ -14,14 +14,6 @@ footer {
   border: 1px solid #ccc;
   padding: 1rem;
   background-color: lightblue;
-}
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-main h1 {
-    text-align: center;
-    grid-column: 1 / -1;
 }
 h1 {
     text-align: center;
@@ -33,9 +25,12 @@ section {
   border: 1px solid #ccc;
 }
 nav a {
-    padding: 20px;
+    display: block;
+    text-align: center;
+    padding: 15px;
     color: black;
-    display: none;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 nav a:hover {
     text-decoration: none;
@@ -52,15 +47,28 @@ nav a:hover {
     background-color: black;
     margin: 5px 0;
 }
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
 footer {
     text-align: center;
 }
-          
+.hide {
+  display: none;
+}
 
 @media screen and (min-width: 700px) {
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    }  
     .menu-btn {
         display: none;
     }
@@ -71,9 +79,10 @@ footer {
         text-align: right;
     }
 }
+
 @media screen and (min-width: 1000px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-          
+                
