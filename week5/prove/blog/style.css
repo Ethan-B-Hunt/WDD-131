@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: #b33939;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.book-review {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-meta {
+  text-align: center;
+}
+
+.book-title, .genre {
+  color: #b33939;
+}
+
+.rating {
+  color: #f1c40f;
+}
+
+.book-detail {
+  text-align: center;
+}
+
+.book-cover {
+  width: 140px;
+}
+
+.reviewer-name {
+  font-style: italic;
+  margin-top: 15px;
+}
+
+@media (min-width: 600px) {
+  .book-review {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  .book-meta {
+    text-align: right;
+  }
+
+  .book-detail {
+    text-align: left;
+  }
+}
