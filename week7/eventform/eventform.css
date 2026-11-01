@@ -36,14 +36,14 @@ button {
 }
 
 button {
-    background: #cfe8cf;
+    background: #6f9096;
     transition: background 0.5s ease;
     margin-top: 10px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #dcead9;
+    background: #485f63;
 }
 
 .hidden {
