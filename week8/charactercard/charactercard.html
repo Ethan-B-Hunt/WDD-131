@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A character card built with a JavaScript object. Attack the character or level them up.">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Character Card">
+    <meta property="og:description" content="A character card built with a JavaScript object. Attack the character or level them up.">
+    <meta property="og:url" content="https://YOURUSERNAME.github.io/YOURREPO/charactercard/">
+    <meta property="og:image" content="https://YOURUSERNAME.github.io/YOURREPO/charactercard/images/social-preview.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Character Card">
+    <meta name="twitter:description" content="A character card built with a JavaScript object. Attack the character or level them up.">
+    <meta name="twitter:image" content="https://YOURUSERNAME.github.io/YOURREPO/charactercard/images/social-preview.png">
+
+    <!-- One favicon (ICO works everywhere) -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- One Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <title>Character Card</title>
+    <link href="charactercard.css" rel="stylesheet">
+    <script src="charactercard.js" defer></script>
+</head>
+<body>
+    <main class="card">
+        <img class="image" id="charImage" src="" alt="">
+        <h1 class="name" id="charName"></h1>
+
+        <div class="stats">
+            <p><strong>Class:</strong> <span id="charClass"></span></p>
+            <p><strong>Level:</strong> <span id="charLevel"></span></p>
+            <p><strong>Health:</strong> <span id="charHealth"></span></p>
+        </div>
+
+        <div class="buttons">
+            <button id="attackBtn">Attacked</button>
+            <button id="levelBtn">Level Up</button>
+        </div>
+    </main>
+
+</body>
+</html>
